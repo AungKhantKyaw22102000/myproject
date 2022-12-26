@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');body{
+    /* background-color: gray; */
+    background-color:var(--body-back);
+    
+}
+.header h2{
+    color:var(--h1-color);
+    margin-top: 100px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Sora', sans-serif;
+    letter-spacing: 10px;
+    user-select: none;
+    font-weight:500;
+    
+
+   
+
+    
+}
+
+.detail-box span{
+    color: var(--a-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.categories-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    padding: 0px 40px;
+    margin-top: 20px;
+
+}
+.categories-box .detail-box{
+    /* background-color: red; */
+    height: 320px;
+    text-align: center;
+    line-height:40px;
+    margin-top: 30px;
+
+    
+    
+}
+
+.detail-box{
+    width: 15%;
+    width: 200px;
+    margin-left: 20px;
+    height: 290px;
+    margin: 18px 90;
+    box-sizing: border-box;
+
+    /* background-color: red; */
+    
+}
+
+.box-item0{
+    background-color: red;
+    height: 270px;
+   background-image: url(../images/Game-cateogries/gtav.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all 0.3s linear;
+
+   /* position: absolute; */
+   
+}
+.box-item0:hover{
+    box-shadow: 10px 10px #ed7d31, -10px -10px #ed7d31;
+    transform: translate(-5px,-7px);
+
+  }
+
+
+.box-item1{
+    background-color: black;
+height: 270px;
+   background-image: url(../images/Game-cateogries/dota2.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all 0.3s linear;
+}
+.box-item1:hover{
+    box-shadow: 10px 10px #ed7d31, -10px -10px #ed7d31;
+    transform: translate(-5px,-7px);    
+  }
+
+
+
+
+
+.box-item2{
+    background-color: black;
+    height: 270px;
+   background-image: url(../images/Game-cateogries/valorant.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all 0.3s linear;
+}
+.box-item2:hover{
+    box-shadow: 10px 10px #ed7d31, -10px -10px #ed7d31;
+    transform: translate(-5px,-7px);
+
+  }
+
+
+
+.box-item3{
+    background-color: black;
+   height: 270px;
+   background-image: url(../images/Game-cateogries/csgo.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all 0.3s linear;
+}
+.box-item3:hover{
+    box-shadow: 10px 10px #ed7d31, -10px -10px #ed7d31;
+    transform: translate(-5px,-7px);
+
+}
+
+
+.box-item4{
+    background-color: black;
+    height: 270px;
+   background-image: url(../images/Game-cateogries/frotnite.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all 0.3s linear;
+}
+.box-item4:hover{
+    box-shadow: 10px 10px #ed7d31, -10px -10px #ed7d31;
+    transform: translate(-5px,-7px);
+
+}
+
+
+
+
+@media screen and ( max-width: 428px){
+
+    .detail-box{
+        width: 75%;
+        /* width: 200px; */
+        /* margin-left: 20px; */
+        height: 320px;
+        margin: 18px 0px;
+        box-sizing: border-box;
+
+        /* background-color: red; */
+    
+    }
+    .categories-box .detail-box{
+        
+        height: 300px;
+        text-align: center;
+        line-height:40px;
+        margin-top: 60px;
+     
+
+    
+    
+    }
+    .card{
+        height: 300px;
+        background-color: red
+    }
+};
+
+@media screen and ( max-width: 600px){
+
+    .detail-box{
+        width:90%;
+    }
+};
+    
+
+

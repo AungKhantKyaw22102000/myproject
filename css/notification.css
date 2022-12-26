@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: sans-serif;
+}
+
+
+
+.notifi-box {
+    width: 300px;
+    height: 0px;
+    position: absolute;
+    top: 61px;
+    right: 35px;
+    background-color: var(--setting-color);
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow-y:scroll;
+    overflow-x: hidden;
+    /* z-index: 1000; */
+}
+.notifi-box h2 {
+    font-size: 14px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    color:var(--a-color);
+    background-color: var(--setting-color);
+    width: 300px;
+    margin-top: 0px;
+    /* background-color: yellow; */
+    position: sticky;
+    top: 0;
+
+}
+.notifi-box h2 span {
+    color: #f00;
+}
+.notifi-item {
+    display: flex;
+    border-bottom: 1px solid var(--noti-hr);
+
+    cursor: pointer;
+    margin-top: 10px;
+}
+.notifi-item:hover{
+    background-color: var(--noti-hover)
+}
+.notifi-item img {
+
+    width: 30px;
+    height: 30px;
+ 
+    border-radius: 50%;
+
+    margin-left: 10px;
+   
+}
+.notifi-item .text h4 {
+    color:var(--a-color);
+
+
+    margin-top: 0px;
+    font-size: 14px;
+  
+    text-align: left;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+ 
+}
+.notifi-item .text{
+
+    width: 240px;
+    margin-left: 10px;
+}
+.notifi-item .text p {
+    color: #aaa;
+    font-size: 12px;
+    text-align: left;
+
+    margin-top: -6px;
+    overflow: hidden;
+       text-overflow: ellipsis;
+       display: -webkit-box;
+       -webkit-line-clamp: 3; 
+       -webkit-box-orient: vertical;
+
+}
+
+#noti-time{
+    color: var(--a-color);
+    font-size: 11px;
+   margin-top: 6px;
+    /* margin-left: -157px; */
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+#noti-mobile{
+    color: var(--a-color);
+    /* line-height: 20px; */
+    margin-top: 17px;
+    margin-left: -42px;
+    cursor: pointer;
+
+
+}
+#home-mobile{
+    color: var(--a-color);
+    margin-top: 17px;
+    margin-left: 140px;
+    /* width: 60px;
+    height: 60px; */
+}
+
+
+.eancro-logo{
+    margin-left: 80px;
+    /* text-align: center; */
+}
+.mobile-notibox{
+    margin-top: 60px;
+   
+
+}
+
+.mobile-notibox h2 {
+    font-size: 14px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    color:var(--a-color);
+    background-color: var(--setting-color);
+    width: 100%;
+    margin-top: 0px;
+    /* background-color: yellow; */
+    /* position: fixed; */
+    /* position: fixed;
+    top: 0; */
+    position: sticky;
+    top: 0;
+
+}
+.mobile-notibox h2 span {
+    color: #f00;
+}
+.mobile-notiboxm {
+    display: flex;
+    border-bottom: 1px solid var(--noti-hr);
+
+    cursor: pointer;
+    margin-top: 10px;
+}
+.mobile-notiboxm:hover{
+    background-color: var(--noti-hover)
+}
+
+
+}

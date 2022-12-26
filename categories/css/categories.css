@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: gray; */
+    background-color: black;
+}
+.categories-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+.categories-box .detail-box{
+    /* background-color: red; */
+    height: 290px;
+    text-align: center;
+    line-height:40px;
+    
+    
+}
+
+.detail-box{
+    width: 15%;
+    height: 240px;
+    margin: 18px 0;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+.box-item0{
+    background-color: black;
+    height: 250px;
+   background-image: url(../images/gtav.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.box-item0:hover{
+    transition: all 0.25s linear;
+    box-shadow: 14px 15px 6px -6px rgba(237,125,49,0.69);
+    -webkit-box-shadow: 14px 15px 6px -6px rgba(237,125,49,0.69);
+    -moz-box-shadow: 14px 15px 6px -6px rgba(237,125,49,0.69);
+    transform: translate(-10px,-10px);
+
+  }
+
+
+.box-item1{
+    background-color: black;
+    height: 250px;
+   background-image: url(../images/dota2.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 10px;
+}
+.box-item1:hover{
+    transition: all 0.25s linear;
+    box-shadow: 14px 15px 6px -6px rgba(237,125,49,0.69);
+    -webkit-box-shadow: 14px 15px 6px -6px rgba(237,125,49,0.69);
+    -moz-box-shadow: 14px 15px 6px -6px rgba(237,125,49,0.69);
+    transform: translate(-10px,-10px);
+
+    
+  }
+
+
+
+
+
+.box-item2{
+    background-color: black;
+    height: 250px;
+   background-image: url(../images/valorant.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.box-item2:hover{
+    transition: all 0.25s linear;
+    box-shadow: 14px 15px 6px -6px rgba(237,125,49,0.69);
+    -webkit-box-shadow: 14px 15px 6px -6px rgba(237,125,49,0.69);
+    -moz-box-shadow: 14px 15px 6px -6px rgba(237,125,49,0.69);
+    transform: translate(-10px,-10px);
+
+  }
+
+
+
+.box-item3{
+    background-color: black;
+    height: 250px;
+   background-image: url(../images/csgo.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.box-item3:hover{
+    transition: all 0.25s linear;
+    box-shadow: 14px 15px 6px -6px rgba(237,125,49,0.69);
+    -webkit-box-shadow: 14px 15px 6px -6px rgba(237,125,49,0.69);
+    -moz-box-shadow: 14px 15px 6px -6px rgba(237,125,49,0.69);
+    transform: translate(-10px,-10px);
+
+}
+
+
+.box-item4{
+    background-color: black;
+    height: 250px;
+   background-image: url(../images/frotnite.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.box-item4:hover{
+    transition: all 0.25s linear;
+    box-shadow: 14px 15px 6px -6px rgba(237,125,49,0.69);
+    -webkit-box-shadow: 14px 15px 6px -6px rgba(237,125,49,0.69);
+    -moz-box-shadow: 14px 15px 6px -6px rgba(237,125,49,0.69);
+    transform: translate(-10px,-10px);
+
+}
+
+
+
+
+@media screen and ( max-width: 1200px){
+
+    .detail-box{
+        width:40%;
+    }
+};
+
+@media screen and ( max-width: 600px){
+
+    .detail-box{
+        width:90%;
+    }
+};
+    
+
+

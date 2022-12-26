@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eancro TV</title>
+    <link rel="icon" href="images/black-logo.svg" type="image/icon type">
+
+
+    <!-- start local css file  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/setting-slidebar.css">
+    <link rel="stylesheet" href="css/darkmode.css">
+    <link rel="stylesheet" href="css/categories-video-slide.css">
+    <link rel="stylesheet" href="css/home-slider-video.css">
+    <link rel="stylesheet" href="css/home-game-tab.css">
+    <link rel="stylesheet" href="css/notification.css">
+    <!-- end local css file  -->
+
+
+
+    <!-- start online css file  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- end   online css file  -->
+
+</head>
+<body>
+
+
+    <!-- start nav-bar -->
+    <div class="nav-container">
+        <nav>
+
+            <!-- start nav-bar for mobile -->
+            <ul class="mobile-nav">
+                <li>
+                    <div class="menu-icon-container" id="mobile-menu">
+                        <div class="menu-icon">
+                            <span class="line-1"></span>
+                            <span class="line-2"></span>
+                            <span class="line-3"></span>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li id="logo-box">
+                   <a href="index.html" class="eancro-logo"></a>
+                </li>
+
+                <!-- <li>
+                    <a href="" class="login-button" id="mobile-login">Login</a>            
+                </li> -->
+
+                <!-- <li class="noti-desktop">
+                  <a style="cursor: pointer;" onclick="toggleNotifi()" >
+<i id="fa-user-icon" class="fa fa-bell" aria-hidden="true">
+  
+                  </a>
+              </li> -->
+
+
+
+
+<li id="mobile-setting">
+  <a href="index.html">
+    <i id="home-mobile" class="fa fa-home" aria-hidden="true"></i>
+
+  </a>
+</li>
+
+              <li id="mobile-setting">
+                <a href="mobile-noti.html">
+                  <i id="noti-mobile" class="fa fa-bell" aria-hidden="true"></i>
+
+                </a>
+              </li>
+        
+              <!-- <li>
+                <i id="mobile-setting" class="fa fa-bell" aria-hidden="true">
+              </li> -->
+                
+                <li>
+                  <a href="#" id="mobile-setting" class="user-profile-mobile"></a>
+                </li>
+
+
+  
+            </ul> 
+            <!-- end nav-bar for mobile -->
+
+
+
+            <!-- start sidebar  -->
+            <input type="checkbox" id="check">
+            <label for="check">
+               <i class="fas fa-bars" id="btn"></i>
+               <i class="fas fa-times" id="cancel"></i>
+            </label>
+
+            <div class="sidebar">
+               <ul>
+                  <li style="display: inline-block;"><a id="sidebar-a" href="index.html"><p style="font-family: broadway;">Eancro TV</p></a></li>
+                  <li id="user-profile"><a id="sidebar-a" href="#"><i class="fas fa-user-circle"></i>Guest</a></li>
+                  <li><a id="sidebar-a" href="setting.html"><i class="fas fa-cog"></i>Setting</a></li>
+      
+                  <li><a id="sidebar-a" href="about.html" target="_blank"><i class="far fa-question-circle"></i>About</a></li>
+                  <li><a id="sidebar-a" href="faq.html" target="_blank"><i class="fas fa-sliders-h"></i>FAQ</a></li>
+                  <li><a id="sidebar-a" href="Contact.html" target="_blank"><i class="far fa-envelope"></i>Contact</a></li>
+                  <!-- <li><a id="sidebar-a"><i class="far fa-eye"></i>Darkmode
+                    <input type="checkbox" id="switch"><label class="label2" for="switch">Toggle</label>
+                
+                  
+
+                  </a></li> -->
+              
+                  
+
+                  
+               </ul>
+            
+            </div>
+
+            <input type="checkbox" id="check">
+            <label for="check">
+               <i class="fas fa-bars" id="btn"></i>
+               <i class="fas fa-times" id="cancel"></i>
+            </label> 
+            <!-- end side bar -->
+
+
+            <!-- start nav-bar for desktop -->
+             <ul class="desktop-nav">
+
+                <li id="logo-box">
+                    <a href="#" class="eancro-logo"></a>
+                 
+                    <span style="position: relative; margin-left: 280px;" class="logo-text" id="desktop-setting-logotext"></span>
+                </li>
+
+
+                <li id="mobile-setting">
+                  <a  class="dropdown-btn" id="mobile-live" href="#">Live&nbsp;&nbsp;&nbsp; &#11206;
+        
+                  </a>
+                <ul class="dropdown-container">
+                  
+                  <a  href="#">Streaming</a>
+                  <a  href="categories.html">Categories</a>
+                </ul>
+                
+              </li>
+
+
+
+                <li class="live-nav-desk" id="drop-down-mobile">
+                  
+               <div class="live-text-icon">
+                    <a id="hide-color-live" href="#">Live</a>
+                    <i  class="fa fa-angle-down"></i>
+                  </div>
+
+           
+                    <div class="drop-down-nav">
+                      <a href="#">Streaming</a>
+                      <a href="categories.html">Categories</a>
+                      
+                    </div>
+              
+
+              
+                </li>
+                
+                <li>
+                    <a href="#">
+                      
+                     Following
+                      <p class="fa-user-text">Following</p></i>
+                    </a>
+                    
+                </li>
+                <li class="noti-desktop">
+                    <a style="cursor: pointer;" onclick="toggleNotifi()" >
+<i id="fa-user-icon" class="fa fa-bell" aria-hidden="true">
+      <p class="fa-user-text">Notification</p></i>
+                    </a>
+                </li>
+                <div class="notifi-box" id="box">
+                  <h2>Notifications <span>17</span></h2>
+                  <div class="notifi-item">
+                    <img src="images/noti-profile/kzh.jpg" alt="img">
+                    <div class="text">
+                       <h4>Kyaw Gyi</h4>
+                       <p>Hello, I' m tester</p>
+                       <p id="noti-time">1 minutes ago</p id="noti-time">
+                      </div> 
+                  </div>
+
+                  <div class="notifi-item">
+                    <img src="images/noti-profile/zka.jpg" alt="img">
+                    <div class="text">
+                       <h4>Zwe Khant Aung</h4>
+                       <p> Jersey giveaway ပေါက်ကြလား 
+                        မိုဘိုင်းလဂျန့် ပွဲတွေ ကို 1xBet မှာဆော့လို့ရနေပါပြီ။
+                        အကောင့်ဖွင့်ရန် -https://t.me/+Yno-bLTf0WUwZjBl  Join ပါ။
+                        twetrwerwerewrwerwerwerwerwerwerewrwerwer
+                        အကောင့်ဖွင့်ရာတွင် ပရိုမိုကုတ် - ace1x ကိုသုံးပါ။</p>
+                       <p id="noti-time">2 minutes ago</p id="noti-time">
+                      </div> 
+                  </div>
+
+                  <div class="notifi-item">
+                    <img src="images/noti-profile/msh.jpg" alt="img">
+                    <div class="text">
+                       <h4>Moe Swam Htet</h4>
+                       <p>@lorem ipsum dolor sit amet</p>
+                       <p id="noti-time">4 hours ago</p id="noti-time">
+                       <!-- <p id="noti-time">20 minutes ago</p id="noti-time"> -->
+                      </div> 
+                  </div>
+
+                  <div class="notifi-item">
+                    <img src="images/noti-profile/hah.jpg" alt="img">
+                    <div class="text">
+                       <h4>Htet Aung Hlaing </h4>
+                       <p>ကျနော်​ ချောလား
+                      </p>
+                       <p id="noti-time">3 days ago</p id="noti-time">
+                      </div> 
+                  </div>
+
+                  <div class="notifi-item">
+                    <img src="images/noti-profile/ztra.jpg" alt="img">
+                    <div class="text">
+                       <h4>Ko Zwe </h4>
+                       <p>@lorem ipsum dolor sit amet</p>
+                       <p id="noti-time">1 week ago</p id="noti-time">
+                      </div> 
+                  </div>
+
+                  <div class="notifi-item">
+                    <img src="images/noti-profile/akk.jpg" alt="img">
+                    <div class="text">
+                       <h4>Aung Khant Kyaw</h4>
+                       <p>wtf Man</p>
+                       <p id="noti-time">2 minutes ago</p id="noti-time">
+                      </div> 
+                  </div>
+
+
+                  <div class="notifi-item">
+                    <img src="images/noti-profile/zka.jpg" alt="img">
+                    <div class="text">
+                       <h4>Zwe Gyi</h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, eveniet laboriosam repellendus eligendi harum odit quae. Dolor necessitatibus, molestias odio sunt recusandae consequuntur maiores facere quas ex id magni facilis!</p>
+                       <p id="noti-time">2 minutes ago</p id="noti-time">
+                      </div> 
+                  </div>
+
+
+
+              
+                </div>
+                <!-- <li id="mobile-setting">
+                    <a href="#">Edit Profile</a>
+                </li> -->
+                <li id="mobile-setting">
+                    <a href="#">About</a>
+                </li>
+                <li id="mobile-setting">
+                  <a href="#">Setting</a>
+              </li>
+                <li id="mobile-setting">
+                    <a href="#">FAQ</a>
+                </li>
+                <li id="mobile-setting">
+                    <a href="#">Contact</a>
+                </li>
+<!--     
+                <li id="mobile-setting"></i>Darkmode
+                   
+
+                 </li>
+    
+
+                 <li id="mobile-setting"><i class="far fa-eye"></i>Darkmode
+                    <input type="checkbox" id="switch3"><label class="label3" for="switch3">Toggle</label>
+
+                 </li> -->
+
+
+                   
+                <li>
+                    <a href="#" class="link-search"></a>
+                    
+                    
+                </li> 
+                <!-- <li>
+                    <a href="#" class="login-button" id="login-desktop" style="background-color: oragne;">Login</a>
+                </li> -->
+            </ul>
+            <!-- end nav-bar for desktop -->
+
+
+        </nav>
+        <!-- End of navigation menu items -->
+
+        <div class="search-container hide">
+            <div class="link-search"></div>
+            <div class="search-bar">
+                <form action="">
+                    <input style="color: var(--a-color);" type="text" placeholder="Search username">
+                </form>
+            </div>
+            <div class="link-close"></div>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>
+                        <a href="#">Popular Streamers</a>
+                    </li>
+                    <li>
+                        <a href="#">Popular Games</a>
+                    </li>
+                    <li>
+                        <a href="#">Tournaments</a>
+                    </li>
+                    <li>
+                        <a href="#">Music</a>
+                    </li>
+                    <li>
+                        <a href="#">Vlogs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="mobile-search-container">
+            <div class="link-search"></div>
+            <div class="search-bar">
+                <form action="">
+                    <input type="text" placeholder="Search ">
+                </form>
+            </div>
+            <span class="cancel-btn">Cancel</span>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>
+                        <a href="#">Popular Streamers</a>
+                    </li>
+                    <li>
+                        <a href="#">Popular Games</a>
+                    </li>
+                    <li>
+                        <a href="#">Tournaments</a>
+                    </li>
+                    <li>
+                        <a href="#">Music</a>
+                    </li>
+                    <li>
+                        <a href="#">Vlogs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+
+    </div> 
+    
+   <!-- end nav-bar -->
+
+  
+
+
+                                                                  
+<!-- start main video slider  -->
+     <div class="w3-content w3-display-container" style="margin-top: 130px;">
+
+
+        <a href="redirect-video0.html">
+        <div id="video-container" class="w3-display-container mySlides container"; >
+          <div>
+            <p class="title1"></p>
+          </div>
+       
+            <video src="video/Ultimate Duel For Magic Cube - V.E.N.O.M. Squad Cinematic Trailer - Mobile Legends- Bang Bang!.mp4" muted autoplay loop playsinline style="width: 80%; height:50%; margin-left: 100px;"></video>
+
+     
+          <div class="overlay">
+            <div class="text3">
+              <p>Kyaw Gyi<br>
+              MOBA<br>
+              Ultimate Duel For Magic Cube - V.E.N.O.M. Squad Cinematic Trailer</p>
+              <p><a href="#" class="fa fa-facebook"></a>
+            </p>
+            </div>
+          </div>
+        </div>
+    </a>
+
+        <a href="redirect-video1.html">
+        <div id="video-container" class="w3-display-container mySlides container">
+          <div>
+            <p class="title1"></p>
+          </div>
+          <video src="video/Counter-Strike- Global Offensive Trailer.mp4" muted autoplay loop playsinline style="width: 80%; height:10%; margin-left: 100px;"></video>
+          <div class="overlay">
+            <div class="text2">
+              <p>Mr K<br>
+                shooting<br>
+                Counter-Strike- Global Offensive Trailer<br>
+              <div class="social">
+              <p><a href="#" class="fa fa-facebook"></a></p>
+            </div>
+            </div>
+          </div>
+        </div>
+    </a>
+
+
+    <a href="redirect-video2.html">
+        <div id="video-container" class="w3-display-container mySlides container" >
+          <div>
+            <p class="title1"></p>
+          </div>
+          <video src="video/Enigma's Exasperation (Dota 2 SFM - TI5 Short Film Contest winner).mp4" muted autoplay loop playsinline style="width: 80%; height:50%; margin-left: 100px;"></video>
+          <div class="overlay">
+            <div class="text3">
+              <p>Lynx<br>
+              Role<br>
+              Enigma's Exasperation</p>
+              <p><a href="#" class="fa fa-facebook"></a>
+            </p>
+            </div>
+          </div>
+        </div>
+    </a>
+    
+    
+        <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+    
+        </div> 
+<!-- end main video slide bar -->
+
+        <br><br>
+
+     <!-- start game category tab-->
+     <h3 class="video-tilte-slide" 
+     style=  "color: var(--h1-color);letter-spacing: 1px;font-size: 24px; font-family: broadway; font-style: italic;">&nbsp;&nbsp;Top Streaming Games</h3>
+       <br><br>
+        <div class="categories-main-box"> 
+
+       <div class="shadow" id="categories-item"> 
+         <a href="">
+         <img class="bounce" src="images/ml.jpg" width="100%" height="100%">
+         </a>
+         <h5 class="pacheader">Mobile Legned: Bang Bang</h5>
+         <div class="home-viewer">
+         <h4>Average Viewers: 3.2k</h4>
+        </div>
+         <div class="main-game-box">
+           <div class="main-game-tab1">MOBA</div>
+           <div class="main-game-tab2">ACTION</div>
+           <div class="main-game-tab3">ESPORT</div>
+         </div>
+       </div>
+
+       <div class="shadow" id="categories-item"> 
+         <a href="">
+         <img class="bounce" src="images/mobile-cover.jpg" width="100%" height="100%">
+         </a>
+         <h5 class="pacheader">Grand Theft Auto 5</h5>
+         <div class="home-viewer">
+          <h4>Average Viewers: 3.2k</h4>
+         </div>
+          <div class="main-game-box">
+            <div class="main-game-tab1">MOBA</div>
+            <div class="main-game-tab2">ACTION</div>
+            <div class="main-game-tab3">ESPORT</div>
+          </div>
+       </div>
+   
+       <div class="shadow" id="categories-item" > 
+         <a href="">
+         <img class="bounce" src="images/d2.jpg" width="100%" height="100%">
+         </a>
+         <h5 class="pacheader">Dota2</h5>  
+         <div class="home-viewer">
+          <h4>Average Viewers: 3.2k</h4>
+         </div>
+          <div class="main-game-box">
+            <div class="main-game-tab1">MOBA</div>
+            <div class="main-game-tab2">ACTION</div>
+            <div class="main-game-tab3">ESPORT</div>
+          </div>
+     </div>
+
+       <div class="shadow" id="categories-item"> 
+         <a href="">
+         <img class="bounce" src="images/csgo.jpg" width="100%" height="100%">
+         </a>
+
+         <h5 class="pacheader">Counter-Strike</h5>
+         <div class="home-viewer">
+          <h4>Average Viewers: 3.2k</h4>
+         </div>
+          <div class="main-game-box">
+            <div class="main-game-tab1">MOBA</div>
+            <div class="main-game-tab2">ACTION</div>
+            <div class="main-game-tab3">ESPORT</div>
+          </div>
+       </div>
+    </div>  
+    <!-- end game category tab -->
+ 
+<p style="color: var(--a-color);margin: 130px 0px 0px 600px;font-style: italic; cursor: pointer; font-size: 12px;">See More</p>
+<i class="far-regular fa-arrow-left"></i>
+
+<h3  style=  "color: var(--h1-color);letter-spacing: 1px;font-size: 24px; font-family: broadway; font-style: italic; margin-top: 20px;">&nbsp;&nbsp;Eancrobers Streaming</h3>
+
+
+    <!-- start home-video-sliebar -->
+
+    <h1 class="video-tilte-slide" style="margin-top: 50px;margin-left: 30px; color: var(--h1-color);font-family: Georgia, 'Times New Roman', Times, serif;">Following</h1>
+        <div class="wrapper">
+           <div class="carousel owl-carousel">
+  
+            <a href="redirect-video0.html"><div class="card card-main">
+                 2
+              </div>
+            </a>  
+            <a href="redirect-video0.html"><div class="card card-main">
+                2
+             </div>
+           </a>  
+           <a href="redirect-video0.html"><div class="card card-main">
+            2
+         </div>
+       </a>  
+       <a href="redirect-video0.html"><div class="card card-main">
+        2
+     </div>
+    </a>  
+    <a href="redirect-video0.html"><div class="card card-main">
+        2
+     </div>
+    </a>  
+ 
+           </div>
+        </div>
+
+
+
+        <h1 class="video-tilte-slide" style="margin-top: 90px;margin-left: 30px; color: var(--h1-color);font-family: Georgia, 'Times New Roman', Times, serif;">Mobile Legend</h1>
+        <div class="wrapper">
+           <div class="carousel owl-carousel">
+  
+            <a href="redirect-video0.html"><div class="card card-main">
+                 2
+              </div>
+            </a>  
+            <a href="redirect-video0.html"><div class="card card-main">
+                2
+             </div>
+           </a>  
+           <a href="redirect-video0.html"><div class="card card-main">
+            2
+         </div>
+       </a>  
+       <a href="redirect-video0.html"><div class="card card-main">
+        2
+     </div>
+    </a>  
+    <a href="redirect-video0.html"><div class="card card-main">
+        2
+     </div>
+    </a>  
+ 
+           </div>
+        </div>
+
+
+
+
+
+    <h1 class="video-tilte-slide" style="margin-top: 90px;margin-left: 30px; color: var(--h1-color);font-family: Georgia, 'Times New Roman', Times, serif;">Mobile Legend</h1>
+    <div class="wrapper">
+       <div class="carousel owl-carousel">
+  
+        <a href="redirect-video0.html"><div class="card card-main">
+             2
+          </div>
+        </a>  
+        <a href="redirect-video0.html"><div class="card card-main">
+            2
+         </div>
+       </a>  
+       <a href="redirect-video0.html"><div class="card card-main">
+        2
+     </div>
+   </a>  
+   <a href="redirect-video0.html"><div class="card card-main">
+    2
+ </div>
+</a>  
+<a href="redirect-video0.html"><div class="card card-main">
+    2
+ </div>
+</a>  
+ 
+       </div>
+    </div>
+
+
+
+
+
+    <h1 class="video-tilte-slide" style="margin-top: 90px;margin-left: 30px; color: var(--h1-color);font-family: Georgia, 'Times New Roman', Times, serif;">Dota 2</h1>
+    <div class="wrapper">
+       <div class="carousel owl-carousel">
+  
+          <div class="card card-main">
+             2
+          </div>
+          <div class="card card-main">
+             3
+          </div>
+          <div class="card card-main">
+             4
+          </div>
+          <div class="card card-main">
+             5
+          </div>
+          <div class="card card-main">
+             6
+          </div>
+          <div class="card card-main">
+             7
+          </div>
+          <div class="card card-main">
+             8
+          </div>
+ 
+       </div>
+    </div>
+
+    <!-- end home-video-slide bar -->
+
+     
+
+
+    <div class="overlay2"></div>
+    <div class="overlay3"></div>
+
+
+
+
+
+    <!-- start online js file -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- end online js file     -->
+
+    <!-- start local js file  -->
+    <script src="javaScript/main.js"></script>
+    <script src="javaScript/darkmode.js"></script>
+    <script src="javaScript/categories-video-slide.js"></script>
+    <script src="javaScript/home-slider-video.js"> </script>
+    <script src="javaScript/notificaiton.js"></script>
+    <script src="javaScript/mobile-dropdown.js"></script>
+    <!-- end local js file  -->
+
+   
+
+
+
+
+</body>
+</html>

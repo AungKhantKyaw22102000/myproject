@@ -1,0 +1,230 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.wrapper{
+  width: 100%;
+  display: flex;
+}
+.carousel{
+
+  padding: 0 60px;
+}
+.carousel .card{
+
+  text-align: center;
+  margin: 20px 0;
+  height: 172px;
+  width: 265px;
+
+}
+
+.carousel .card-main{
+  background: #ed7d31;
+}
+.owl-dots{
+  text-align: center;
+  margin-top: 10px;
+}
+.owl-dot{
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 14px;
+  border: 2px solid #ed7d31!important;
+  transition: all 0.6s ease;
+}
+.owl-dot.active,
+.owl-dot:hover{
+  background: #ed7d31!important;
+}
+
+
+
+
+
+
+@media (max-width: 1380px) {
+  .carousel .card{
+    
+    text-align: center;
+    margin: 20px 0;
+    height: 172px;
+    width: 240px;
+   
+  }
+    
+
+
+@media (max-width:1115px){
+.carousel .card{
+
+  text-align: center;
+  /* margin: 20px 0; */
+  
+  height: 172px;
+  width: 245px;
+  
+}
+
+.carousel{
+
+padding: 0 40px;
+}
+}
+
+@media (max-width:885px){
+.carousel .card{
+
+  text-align: center;
+  height: 182px;
+  width: 295px;
+  margin-left: 36px;
+
+}
+.eancro-logo{
+margin-right: -160px;
+}
+
+}
+
+
+@media (max-width:835px){
+.carousel .card{
+
+  text-align: center;
+  height: 182px;
+  width: 295px;
+  margin-left: 28px;
+
+}
+.eancro-logo{
+margin-right: -180px;
+}
+
+}
+
+
+@media (max-width:821px){
+.carousel .card{
+
+  text-align: center;
+  height: 182px;
+  width: 295px;
+  margin-left: 24px; 
+}
+.eancro-logo{
+margin-right: -200px;
+/* position: absolute; */
+}
+}
+@media (max-width:801px){
+.carousel .card{
+
+  text-align: center;
+  height: 182px;
+  width: 295px;
+  margin-left: 18px;
+
+}
+}
+
+@media (max-width:769px){
+.carousel .card{
+
+  text-align: center;
+  height: 182px;
+  width: 295px;
+  margin-left: 12px;
+
+}  }
+
+
+  .owl-dot{
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    outline: none;
+    border-radius: 14px;
+    border: 2px solid #ed7d31!important;
+    transition: all 0.6s ease;
+  }
+  .video-tilte-slide{
+    font-size: 20px;
+  }
+  .carousel .card-main{
+    background: #ed7d31;
+    margin-top: 10px;
+  }
+
+
+}
+
+
+
+
+  
+@media (max-width: 429px) {
+  .carousel .card{
+    height: 212px;
+    width: 290px;
+    margin-left: 28px;
+  }
+  #mobile-menu{
+    margin-left: 10px;
+  }
+  #mobile-login{
+    font-family: ;
+    margin-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  #mobile-login:hover{
+    color: orange;
+  }
+  .eancro-logo{
+    margin-left: -10px;
+  }
+  .quick-links{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+}
+  
+
+@media (max-width: 394px) {
+  .carousel .card{
+    height: 200px;
+    width: 290px;
+    /* position: relative; */
+    margin-left: 15px;
+  }
+  #mobile-menu{
+    margin-left: 10px;
+  }
+  #mobile-login{
+    font-family: ;
+    margin-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  #mobile-login:hover{
+    color: orange;
+  }
+  .eancro-logo{
+    margin-left: -10px;
+  }
+}
+
+
+@media (max-width: 376px) {
+  .carousel .card{
+    height: 200px;
+    width: 280px;
+    position: relative;
+    margin-left: 6px;
+  }
+}
+  
+        

@@ -1,0 +1,125 @@
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.sidebar{
+	position: fixed;
+	left: -250px;
+	width: 240px;
+	height: 100%;
+	background:var(--setting-color);
+	transition: all 0.5s ease;
+	z-index:2;
+	margin-top: -6px;
+	/* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px  10px; */
+	box-shadow:  rgba(0, 0, 0, 0.4) 0px 8px 16px -8px;
+}
+#sidebar-a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	line-height: 52.5px;
+	letter-spacing: 1px;
+	font-size: 17px;
+	color:var(--a-color);
+	padding-left: 20px;
+	box-sizing: border-box;
+	/* border-top: 1px solid rgba(0, 0, 0, 0.419); */
+	/* border-bottom: 0px solid #f9faf720; */
+	transition: 0.4s;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#sidebar-a p{
+
+	font-size: 23px;
+	color: var(--h1-color);
+	margin-left: 4px;
+	margin-top: 2px;
+	cursor: pointer;
+	padding: 5px 0px;
+
+	
+}
+#user-profile{
+	border-top: 1px solid rgba(79, 89, 86, 0.352);
+
+}
+
+ul li:hover a p{
+	transform: translate(-3px, -3px);
+	text-shadow: 4px 4px 20px deepskyblue;
+
+	
+	/* background-color: red; */
+}
+
+#sidebar-a:hover p{
+	color: darkorange;
+}
+#sidebar-a:hover{
+	color: darkorange;
+}
+
+.sidebar ul a i{
+	margin-right: 16px;
+}
+#check{
+	display: none;
+}
+label #btn,label #cancel{
+	position: absolute;
+	cursor: pointer;
+}
+label #btn{
+	left: 20px;
+	top: 18px;
+	font-size: 25px;
+	color:var(--setting-tool);
+	transition: all 0.5s;
+	 /* z-index: 600; */
+position: fixed; 
+
+}
+label #cancel{
+	z-index: 1111;
+	left: -140px;
+	top:16px;
+	font-size: 30px;
+	color:var(--setting-tool);
+	transition: all 0.5s ease;
+	/* z-index: 600; */
+	position: fixed;
+
+}
+#btn:hover{
+	color: darkorange;
+}
+#cancel:hover{
+	color: darkorange;
+}
+#check:checked ~ .sidebar{
+	left: 0;
+}
+#check:checked ~ label #btn{
+	left: 150px;
+	opacity: 0;
+	pointer-events: none;
+}
+#check:checked ~ label #cancel{
+	left: 200px;
+}
+
+@media screen and (max-width: 768px){
+	.sidebar,#btn,#cancel{
+		display: none;
+	}
+}
+
+
+
+

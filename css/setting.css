@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--body-back);
+}
+
+
+.left-menu-list nav ul li{
+    padding: 15px 20px; 
+    color: var(--a-color);     
+    
+    width: 280px;
+    margin-left: 10px;
+    
+}
+
+.left-menu-list nav ul li a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: var(--a-color);
+    
+}
+.left-menu-list nav ul li a:hover{
+    color: orange;
+}
+#edit-hr
+{
+    background-color: var(--edit-hr);
+    border: 0 none;
+    color: var(--edit-hr);
+    height: 1px;
+}
+
+.setting-box{
+    display: flex;
+    /* float: left; */
+}
+.left-menu-list{
+   
+    width: 25%;
+    padding: 10px 0px;
+    background-color: var(--setting-color);
+    /* background-color: red; */
+    height: 100vh;
+    position: sticky;
+    top: 2px;
+    align-self: flex-start;
+  
+}
+.title h2{
+    padding: 20px 30px;
+    font-family: Roboto Slab;
+    color: var(--a-color);
+    background-color:var(--nav);
+
+}
+
+.right-info{
+    height: 200vh;
+    width: 75%;
+
+}
+.edit-info{ 
+    margin: 40px 0px 0px 300px;
+    color: var(--a-color);
+    
+} 
+.change-profile-title{
+    padding: 30px 300px;
+    font-family: Roboto Slab;
+    color: var(--a-color);
+}
+.edit-box{
+    width:100px;
+    height:100px;
+    /* background-color: red; */
+    border-radius: 50px;
+    margin: auto;
+    background-image: url(../images/edit-profile-test.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+    border: 2px solid orange;
+    position: sticky;
+    top: 12px;
+
+}
+.upload-button{
+    margin: auto;
+    margin:30px 0px 0 420px;
+   
+}
+.upload-button button{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid orange;
+}
+.account-info h2{
+    padding: 30px 0px;
+    font-family: Roboto Slab;
+}
+
+.change-pass{
+    margin-top: 30px;
+    padding: 30px 0px;
+    font-family: Roboto Slab;
+}
+
+
+#label-setting{
+    width: 160px;
+    display: inline-block;
+    /* font-family: Roboto Slab; */
+    font-family: arial;
+    font-weight: 400;
+    /* color: red; */
+    
+}
+#btn-save{
+    padding:5px 10px;
+    border-radius: 5px;
+    background-color: orange;
+    border: 1px solid rgba(255, 166, 0, 0.21);
+    margin-top: 15px;
+    /* margin-left: 220px; */
+    margin-left:20px;
+
+}
+
+#btn-save-image{
+    padding:5px 10px;
+    border-radius: 5px;
+    background-color: orange;
+    border: 1px solid rgba(255, 166, 0, 0.21);
+    margin-top: 20px;
+    /* margin-left: 220px; */
+    margin-left:570px;
+}
+#btn-cancel-edit{
+    padding: 5px 8px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 166, 0, 0.21);
+    margin-left: 200px;
+    
+
+
+    
+}
+
+
+
+.right{
+    height: 540px;
+    /* width: 15%; */
+    /* background-color: blue; */
+}
+
+
+

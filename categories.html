@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+    <link rel="icon" href="images/black-logo.svg" type="image/icon type">
+
+    <!-- start local css file  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/setting-slidebar.css">
+    <link rel="stylesheet" href="css/darkmode.css">
+    <link rel="stylesheet" href="css/categories-video-slide.css">
+    <link rel="stylesheet" href="css/home-slider-video.css">
+    <link rel="stylesheet" href="css/home-game-tab.css">
+    <link rel="stylesheet" href="css/notification.css">
+    <link rel="stylesheet" href="css/categories.css">
+    <!-- end local css file  -->
+
+
+
+    <!-- start online css file  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- end   online css file  -->
+
+</head>
+<body>
+
+
+
+    <!-- start nav-bar -->
+    <div class="nav-container">
+        <nav>
+
+            <!-- start nav-bar for mobile -->
+            <ul class="mobile-nav">
+                <li>
+                    <div class="menu-icon-container" id="mobile-menu">
+                        <div class="menu-icon">
+                            <span class="line-1"></span>
+                            <span class="line-2"></span>
+                            <span class="line-3"></span>
+                        </div>
+                    </div>
+                </li>
+
+
+                <li id="logo-box">
+                   <a href="index.html" class="eancro-logo"></a>
+                </li>
+
+                <!-- <li>
+                    <a href="" class="login-button" id="mobile-login">Login</a>            
+                </li> -->
+
+                <!-- <li class="noti-desktop">
+                  <a style="cursor: pointer;" onclick="toggleNotifi()" >
+<i id="fa-user-icon" class="fa fa-bell" aria-hidden="true">
+  
+                  </a>
+              </li> -->
+
+
+
+
+<li id="mobile-setting">
+  <a href="index.html">
+    <i id="home-mobile" class="fa fa-home" aria-hidden="true"></i>
+
+  </a>
+</li>
+
+              <li id="mobile-setting">
+                <a href="mobile-noti.html">
+                  <i id="noti-mobile" class="fa fa-bell" aria-hidden="true"></i>
+
+                </a>
+              </li>
+        
+              <!-- <li>
+                <i id="mobile-setting" class="fa fa-bell" aria-hidden="true">
+              </li> -->
+                
+                <li>
+                  <a href="#" id="mobile-setting" class="user-profile-mobile"></a>
+                </li>
+
+
+  
+            </ul> 
+            <!-- end nav-bar for mobile -->
+
+
+
+            <!-- start sidebar  -->
+            <input type="checkbox" id="check">
+            <label for="check">
+               <i class="fas fa-bars" id="btn"></i>
+               <i class="fas fa-times" id="cancel"></i>
+            </label>
+
+            <div class="sidebar">
+               <ul>
+                  <li style="display: inline-block;"><a id="sidebar-a" href="index.html"><p style="font-family: broadway;">Eancro TV</p></a></li>
+                  <li id="user-profile"><a id="sidebar-a" href="#"><i class="fas fa-user-circle"></i>Guest</a></li>
+                  <li><a id="sidebar-a" href="setting.html"><i class="fas fa-cog"></i>Setting</a></li>
+      
+                  <li><a id="sidebar-a" href="about.html" target="_blank"><i class="far fa-question-circle"></i>About</a></li>
+                  <li><a id="sidebar-a" href="faq.html" target="_blank"><i class="fas fa-sliders-h"></i>FAQ</a></li>
+                  <li><a id="sidebar-a" href="Contact.html" target="_blank"><i class="far fa-envelope"></i>Contact</a></li>
+                  <!-- <li><a id="sidebar-a"><i class="far fa-eye"></i>Darkmode
+                    <input type="checkbox" id="switch"><label class="label2" for="switch">Toggle</label>
+                
+                  
+
+                  </a></li> -->
+              
+                  
+
+                  
+               </ul>
+            
+            </div>
+
+            <input type="checkbox" id="check">
+            <label for="check">
+               <i class="fas fa-bars" id="btn"></i>
+               <i class="fas fa-times" id="cancel"></i>
+            </label> 
+            <!-- end side bar -->
+
+
+            <!-- start nav-bar for desktop -->
+             <ul class="desktop-nav">
+
+                <li id="logo-box">
+                    <a href="#" class="eancro-logo"></a>
+                 
+                    <span style="position: relative; margin-left: 280px;" class="logo-text" id="desktop-setting-logotext"></span>
+                </li>
+
+
+                <li id="mobile-setting">
+                  <a  class="dropdown-btn" id="mobile-live" href="#">Live&nbsp;&nbsp;&nbsp; &#11206;
+        
+                  </a>
+                <ul class="dropdown-container">
+                  
+                  <a  href="#">Streaming</a>
+                  <a  href="categories.html">Categories</a>
+                </ul>
+                
+              </li>
+
+
+
+                <li class="live-nav-desk" id="drop-down-mobile">
+                  
+               <div class="live-text-icon">
+                    <a id="hide-color-live" href="#">Live</a>
+                    <i  class="fa fa-angle-down"></i>
+                  </div>
+
+           
+                    <div class="drop-down-nav">
+                      <a href="#">Streaming</a>
+                      <a href="categories.html">Categories</a>
+                      
+                    </div>
+              
+
+              
+                </li>
+                
+                <li>
+                    <a href="#">
+                      
+                     Following
+                      <p class="fa-user-text">Following</p></i>
+                    </a>
+                    
+                </li>
+                <li class="noti-desktop">
+                    <a style="cursor: pointer;" onclick="toggleNotifi()" >
+<i id="fa-user-icon" class="fa fa-bell" aria-hidden="true">
+      <p class="fa-user-text">Notification</p></i>
+                    </a>
+                </li>
+                <div class="notifi-box" id="box">
+                  <h2>Notifications <span>17</span></h2>
+                  <div class="notifi-item">
+                    <img src="images/noti-profile/kzh.jpg" alt="img">
+                    <div class="text">
+                       <h4>Kyaw Gyi</h4>
+                       <p>Hello, I' m tester</p>
+                       <p id="noti-time">1 minutes ago</p id="noti-time">
+                      </div> 
+                  </div>
+
+                  <div class="notifi-item">
+                    <img src="images/noti-profile/zka.jpg" alt="img">
+                    <div class="text">
+                       <h4>Zwe Khant Aung</h4>
+                       <p> Jersey giveaway ပေါက်ကြလား 
+                        မိုဘိုင်းလဂျန့် ပွဲတွေ ကို 1xBet မှာဆော့လို့ရနေပါပြီ။
+                        အကောင့်ဖွင့်ရန် -https://t.me/+Yno-bLTf0WUwZjBl  Join ပါ။
+                        twetrwerwerewrwerwerwerwerwerwerewrwerwer
+                        အကောင့်ဖွင့်ရာတွင် ပရိုမိုကုတ် - ace1x ကိုသုံးပါ။</p>
+                       <p id="noti-time">2 minutes ago</p id="noti-time">
+                      </div> 
+                  </div>
+
+                  <div class="notifi-item">
+                    <img src="images/noti-profile/msh.jpg" alt="img">
+                    <div class="text">
+                       <h4>Moe Swam Htet</h4>
+                       <p>@lorem ipsum dolor sit amet</p>
+                       <p id="noti-time">4 hours ago</p id="noti-time">
+                       <!-- <p id="noti-time">20 minutes ago</p id="noti-time"> -->
+                      </div> 
+                  </div>
+
+                  <div class="notifi-item">
+                    <img src="images/noti-profile/hah.jpg" alt="img">
+                    <div class="text">
+                       <h4>Htet Aung Hlaing </h4>
+                       <p>ကျနော်​ ချောလား
+                      </p>
+                       <p id="noti-time">3 days ago</p id="noti-time">
+                      </div> 
+                  </div>
+
+                  <div class="notifi-item">
+                    <img src="images/noti-profile/ztra.jpg" alt="img">
+                    <div class="text">
+                       <h4>Ko Zwe </h4>
+                       <p>@lorem ipsum dolor sit amet</p>
+                       <p id="noti-time">1 week ago</p id="noti-time">
+                      </div> 
+                  </div>
+
+                  <div class="notifi-item">
+                    <img src="images/noti-profile/akk.jpg" alt="img">
+                    <div class="text">
+                       <h4>Aung Khant Kyaw</h4>
+                       <p>wtf Man</p>
+                       <p id="noti-time">2 minutes ago</p id="noti-time">
+                      </div> 
+                  </div>
+
+
+                  <div class="notifi-item">
+                    <img src="images/noti-profile/zka.jpg" alt="img">
+                    <div class="text">
+                       <h4>Zwe Gyi</h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, eveniet laboriosam repellendus eligendi harum odit quae. Dolor necessitatibus, molestias odio sunt recusandae consequuntur maiores facere quas ex id magni facilis!</p>
+                       <p id="noti-time">2 minutes ago</p id="noti-time">
+                      </div> 
+                  </div>
+                   
+                </div>
+                <!-- <li id="mobile-setting">
+                    <a href="#">Edit Profile</a>
+                </li> -->
+                <li id="mobile-setting">
+                    <a href="#">About</a>
+                </li>
+                <li id="mobile-setting">
+                  <a href="#">Setting</a>
+              </li>
+                <li id="mobile-setting">
+                    <a href="#">FAQ</a>
+                </li>
+                <li id="mobile-setting">
+                    <a href="#">Contact</a>
+                </li>
+<!--     
+                <li id="mobile-setting"></i>Darkmode
+                   
+
+                 </li>
+    
+
+                 <li id="mobile-setting"><i class="far fa-eye"></i>Darkmode
+                    <input type="checkbox" id="switch3"><label class="label3" for="switch3">Toggle</label>
+
+                 </li> -->
+
+
+                   
+                <li>
+                    <a href="#" class="link-search"></a>
+                    
+                    
+                </li> 
+                <!-- <li>
+                    <a href="#" class="login-button" id="login-desktop" style="background-color: oragne;">Login</a>
+                </li> -->
+            </ul>
+            <!-- end nav-bar for desktop -->
+
+
+        </nav>
+        <!-- End of navigation menu items -->
+
+        <div class="search-container hide">
+            <div class="link-search"></div>
+            <div class="search-bar">
+                <form action="">
+                    <input style="color: var(--a-color);" type="text" placeholder="Search username">
+                </form>
+            </div>
+            <div class="link-close"></div>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>
+                        <a href="#">Popular Streamers</a>
+                    </li>
+                    <li>
+                        <a href="#">Popular Games</a>
+                    </li>
+                    <li>
+                        <a href="#">Tournaments</a>
+                    </li>
+                    <li>
+                        <a href="#">Music</a>
+                    </li>
+                    <li>
+                        <a href="#">Vlogs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="mobile-search-container">
+            <div class="link-search"></div>
+            <div class="search-bar">
+                <form action="">
+                    <input type="text" placeholder="Search ">
+                </form>
+            </div>
+            <span class="cancel-btn">Cancel</span>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>
+                        <a href="#">Popular Streamers</a>
+                    </li>
+                    <li>
+                        <a href="#">Popular Games</a>
+                    </li>
+                    <li>
+                        <a href="#">Tournaments</a>
+                    </li>
+                    <li>
+                        <a href="#">Music</a>
+                    </li>
+                    <li>
+                        <a href="#">Vlogs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+
+    </div> 
+  
+ <!-- end nav-bar -->
+
+
+
+
+
+
+
+<div class="header">
+   <h2>Categories</h2>
+
+</div>
+
+
+   <div class="categories-box">
+
+
+     <div class="detail-box">
+       <div class="card box-item0">
+           
+       </div>
+       <span>GTA-V</span>
+    </div>
+      
+
+    <div class="detail-box">
+        <div class="card box-item1"></div>
+        <span>Dota 2</span>
+     </div>
+
+
+     <div class="detail-box">
+        <div class="card box-item2"></div>
+        <span>Volarnt</span>
+     </div>
+
+     <div class="detail-box">
+        <div class="card box-item3"></div>
+        <span>Counter Strike</span>
+     </div>
+
+     <div class="detail-box">
+        <div class="card box-item4"></div>
+        <span>Frontine</span>
+     </div>
+
+     <div class="detail-box">
+      <div class="card box-item3"></div>
+      <span>Counter Strike</span>
+   </div>
+
+   <div class="detail-box">
+      <div class="card box-item4"></div>
+      <span>Frontine</span>
+   </div>
+
+   <div class="detail-box">
+      <div class="card box-item4"></div>
+      <span>Frontine</span>
+   </div>
+  
+
+   <div class="detail-box">
+      <div class="card box-item4"></div>
+      <span>Frontine</span>
+   </div>
+  
+
+   <div class="detail-box">
+      <div class="card box-item4"></div>
+      <span>Frontine</span>
+   </div>
+  
+     
+
+   </div>
+
+
+
+ 
+
+  
+   
+
+    <!-- start local js file  -->
+    <script src="javaScript/main.js"></script>
+    <script src="javaScript/darkmode.js"></script>
+    <script src="javaScript/categories-video-slide.js"></script>
+    <script src="javaScript/home-slider-video.js"> </script>
+    <!-- end local js file  -->
+</body>
+</html>

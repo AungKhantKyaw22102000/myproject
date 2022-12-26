@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-video{
+    display: flex;
+    
+    
+}
+
+.left{
+    width: 15%;
+    height: 600px;
+    /* background-color: red; */
+    margin-top: 80px;
+    margin-right:auto;
+    margin-left: auto;
+}
+.center{
+    width: 58%;
+    height: 450px;
+    /* background-color: pink; */
+    margin-top: 80px;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+
+.right{
+    width: 23%;
+    height: 450px;
+    background-color: green;
+    margin-top: 80px;
+    margin-right:auto;
+    margin-left: auto;
+}

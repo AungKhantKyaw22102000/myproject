@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting</title>
+     <link rel="icon" href="images/black-logo.svg" type="image/icon type">
+
+
+    <!-- start local css file  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/setting-slidebar.css">
+    <link rel="stylesheet" href="css/darkmode.css">
+    <link rel="stylesheet" href="css/categories-video-slide.css">
+    <!-- <link rel="stylesheet" href="css/home-slider-video.css"> -->
+    <!-- <link rel="stylesheet" href="css/home-game-tab.css"> -->
+    <link rel="stylesheet" href="css/setting.css">
+    <!-- end local css file  -->
+
+
+
+    <!-- start online css file  -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome/css/regular.min.css">
+    <link rel="stylesheet" href="fontawesome/css/regular.css">
+  
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> --> 
+</head>
+<body>
+    <div class="container">
+     
+        <div class="title">
+            <h2>Profile</h2>
+        </div>
+        <hr id="edit-hr">
+        <div class="setting-box">
+        <div class="left-menu-list">
+            <nav>
+                <ul>
+
+                    <li>
+                        <i class="fas fa-edit" aria-hidden="true"></i>
+                        <i class="fa-regular fa-arrow-up-right-from-square" aria-hidden="true" ></i>
+                        <i class="fa-regular fa-arrow-up-right-from-square"></i>
+                        <!-- <i class="fa-regular fa-arrow-up-right-from-square"></i> -->
+                        <a href="#">Edit </a>
+                    </li>
+
+                    <li>
+                        <i class="fa fa-bell" aria-hidden="true"></i>
+                        <a href="#">Notification</a>
+                    </li>
+
+
+                    <li>
+                        <i class="fa fa-rocket" aria-hidden="true"></i>
+                        <a href="#">Subscription</a>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-wallet" aria-hidden="true"></i>
+                        <a href="#">Wallet</a>
+                    </li>
+
+
+                    <li>
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        <a href="#">Security and Privacy</a>
+                    </li>
+
+                    <li>
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                        <a href="#">Change Language</a>
+                    </li>
+
+
+                    <li>
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                        <a href="#">Darkmode</a>
+                        <input type="checkbox" id="switch"><label class="label2" for="switch">Toggle</label>
+                    </li>
+              
+                  
+
+                    
+                    
+                   
+                </ul>
+            </nav>
+        
+        </div>
+
+        <div class="right-info">
+            <div class="change-profile-title">
+                <h2>Change Profile</h2>
+            </div>
+            <div class="edit-profile">
+                <div class="edit-box"></div>
+            </div>
+            <div class="upload-button">
+                <button>Upload Image    <i class="fa fa-upload" aria-hidden="true"></i> </button>
+             
+            </div>
+            <button id="btn-save-image" type="submit">Save</button>
+            
+
+            <div class="edit-info">
+                <div class="account-info">
+                    <h2>Account Information</h2>
+                </div>
+              <form action="">
+                 <label id="label-setting" for="name">Name:</label>
+                 <input type="text" id="name"><br><br>
+
+                 <label id="label-setting" for="username">Username:</label>
+                 <input type="text" id="username"><br><br>
+
+                 <label id="label-setting" for="email">Email:</label>
+                 <input type="email" id="email"><br><br>
+
+                 <label id="label-setting" for="number">Phone:</label>
+                 <input type="number" id="number"><br><br>
+               
+                 <button id="btn-cancel-edit" type="reset">Cancel</button>
+                      <button id="btn-save" type="submit">Save</button>
+
+                </form>
+                <div class="change-pass">
+                    <h2>Change Password</h2>
+                </div>
+              
+
+                <form action="">
+                 <label id="label-setting" for="pass">Current Password:</label>
+                 <input type="password" id="pass"><br><br>
+
+                 <label id="label-setting" for="pass">New Password:</label>
+                 <input type="password" id="pass"><br><br> 
+
+                 <label id="label-setting" for="pass">Confirm Password:</label>
+                 <input type="password" id="pass"><br><br>
+                 <button id="btn-cancel-edit" type="reset">Cancel</button>
+                 <button id="btn-save" type="submit">Save</button>
+                
+                </form>
+                 
+
+                <!-- >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+            
+            </div>
+        </div>
+
+        
+     
+    </div>
+    </div>
+
+     <!-- start online js file -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- end online js file     -->
+
+    <!-- start local js file  -->
+    <script src="javaScript/main.js"></script>
+    <script src="javaScript/darkmode.js"></script>
+    <script src="javaScript/categories-video-slide.js"></script>
+    <script src="javaScript/home-slider-video.js"> </script>
+    <!-- end local js file  -->
+</body>
+</html>
